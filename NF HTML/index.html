@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora NF</title>
+</head>
+<body>
+    <h1>Calculadora NF</h1>
+    <h2>Calcule o valor total da Nota Fiscal com a tributação total</h2>
+    <p>Digite os valores abaixo:</p>
+
+    <form id="nfForm">
+        <label for="valor">Valor total da Nota Fiscal:</label>
+        <input type="number" id="valor" name="valor" step="0.01" required>
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultados">
+        <h3>Resultados:</h3>
+        <p>PIS (0,65%): R$ <span id="resPis">0,00</span></p>
+        <p>COFINS (3%): R$ <span id="resCofins">0,00</span></p>
+        <p>CSLL (1%): R$ <span id="resCsll">0,00</span></p>
+        <p>IR (1,5%): R$ <span id="resIr">0,00</span></p>
+        <hr>
+        <p><strong>Valor total das contribuições sociais (4,65%):  <span id="resTotal">R$0,00</span></strong></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

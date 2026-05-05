@@ -1,0 +1,14 @@
+C:\Users\noten\NF\NF\bin\Debug\net8.0\NF.exe
+C:\Users\noten\NF\NF\bin\Debug\net8.0\NF.deps.json
+C:\Users\noten\NF\NF\bin\Debug\net8.0\NF.runtimeconfig.json
+C:\Users\noten\NF\NF\bin\Debug\net8.0\NF.dll
+C:\Users\noten\NF\NF\bin\Debug\net8.0\NF.pdb
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.AssemblyInfoInputs.cache
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.AssemblyInfo.cs
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.csproj.CoreCompileInputs.cache
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.dll
+C:\Users\noten\NF\NF\obj\Debug\net8.0\refint\NF.dll
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.pdb
+C:\Users\noten\NF\NF\obj\Debug\net8.0\NF.genruntimeconfig.cache
+C:\Users\noten\NF\NF\obj\Debug\net8.0\ref\NF.dll

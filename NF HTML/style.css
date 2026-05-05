@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #7A7D8C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #292038;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #292038;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #8a8888;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(41, 32, 56, 0.3);
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container p {
+    color: #292038;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+p.instrucao {
+    color: #292038;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#nfForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+label {
+    color: #292038;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border: 2px solid #8C8B7A;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    border-color: #828C7A;
+}
+
+/* Remove setinhas do input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+    width: 200px;
+    padding: 14px;
+    background-color: #292038;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #7E7A8C;
+}
+
+#resultados {
+    margin-top: 20px;
+    background-color: #292038;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#resultados p {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff !important;
+    margin: 8px 0;
+    font-size: 0.95rem;
+}
+
+#resultados span {
+    color: #828C7A;
+    font-weight: bold;
+}
+
+.total-destaque {
+    border-top: 1px solid #7A7D8C;
+    margin-top: 10px !important;
+    padding-top: 10px;
+}
+
+#resTotal {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
